@@ -1,0 +1,16 @@
+<title>DI Milestone Project</title>
+<html>
+  <head>
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.css" type="text/css" />
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.js"></script>
+    {{ script | safe }}
+  </head>
+  <FORM><INPUT Type="button" VALUE="View Another Stock" onClick="history.go(-1);return true;"></FORM>
+  <body>
+    <div class=page>
+      <h1>Results from Quandl Lookup</h1>
+      {{ div | safe }}
+    </div>
+    
+  </body>
+</html>
